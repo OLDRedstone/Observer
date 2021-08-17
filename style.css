@@ -2,7 +2,7 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(background.jpeg);
+    background-image: url(background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ strike {
 
 .photo-bg {
     /* background-image: url(assets/background.jpg); */
-    background-image: url(OLDRedstone.jpeg);
+    background-image: url(OR.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
