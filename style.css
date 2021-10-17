@@ -1,6 +1,5 @@
 body {
-    font-size: 12px;
-    color: #6c767d;
+    color: #0088bd;
     background-color: #ebf1f5;
     background-image: url(photos/background.JPG);
     background-attachment: fixed;
@@ -14,6 +13,9 @@ div{
     font-family:Minecraft;
 }
 
+h1 {
+    color: #0080b1
+    }
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -21,13 +23,11 @@ div{
     background-color: #FFFFFF;
 }
 
-
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #87CEEB;
 }
-
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
@@ -35,52 +35,50 @@ div{
     background-color: #00BFFF;
 }
 
-@media (max-width: 1199px) {
-    body {
-        min-height: 200px;
+@media (max-width: 1920px) {
+body {
+    transform:rotate(0deg) skew(40deg,-20deg);
+    transition-duration:2s;
+    transition-timing-function:ease; 
     }
-    h1 {
-        font-size: 24px;
+h1 {
+    font-size: 24px;
     }
-    h2,
-    .social .fa {
+h2,
+.social .fa {
         font-size: 20px;
     }
-    h3 {
+h3 {
         font-size: 16px;
     }
-    h4,
-    p {
-        font-size: 12px;
+h4,
+p {
+        font-size: 4px;
     }
-
 h1,
 h2,
 h3,
 h4 {
     color: black;
 }
-
 .card {
+    box-shadow: -10px 10px 2px 0px rgba(90, 205, 255, 0.30);
     border: none;
     padding: 80px 80px 0px;
     border-radius: 0;
+    background-color: rgba(0, 186, 255, 0.50);
 }
-
 .container {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-
 .my-card {
-    /* box-shadow: 0px 5px 15px 5px rgb(251,114,153); */
+    /*box-shadow: -10px 10px 2px 0px rgba(0, 177, 255, 0.59);*/
 }
-
 strike {
     color: red;
 }
-
 .btn {
     border-radius: 0;
     margin: 5px 0;
@@ -88,95 +86,79 @@ strike {
     padding: 12px 40px;
     transition: ease;
 }
-
 .btn-primary {
-    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
+    box-shadow: 0px 5px 15px 5px #00BFFF;
     padding: 12px 40px;
     transition: ease;
 }
-
 .btn-primary:hover {
-    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+    box-shadow: 5px -2px 15px 0px #00BFFF;
 }
-
 .btn-secondary {
-    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
     padding: 12px 40px;
     transition: ease;
 }
-
 .btn-secondary:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
-
 .btn-success {
-    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
     padding: 12px 40px;
     transition: ease;
 }
-
 .btn-success:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
-
 .social {
     padding-left: 0;
 }
-
 .social p {
     margin-bottom: 0;
 }
-
 .social li {
     list-style: none;
     float: left;
     margin-right: 15px;
 }
-
 .card-text {
+    box-shadow: -10px 10px 2px 0px rgba(0, 177, 255, 0.59);
     margin-bottom: 20px;
 }
-
 .social .fa {
     font-size: 24px;
 }
-
 .photo-bg {
+    box-shadow: -10px 10px 2px 0px rgba(0, 104, 150, 0.59);
     background-image: url(photos/OR.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 footer p {
     font-size: 4px;
 }
-
-#kaygb-blog-a,
-#kaygb-mail-a {
-    display: none;
-}
-
-
-    .card {
+.card {
         padding: 50px 50px 0px;
     }
-}
-
-@media (max-width: 1199px) {
-    .photo-bg {
+.photo-bg {
         min-height: calc(100vh - 500px);
     }
 }
 
-@media(max-width:991px) {
+@media (max-width:960px) {
     .photo-bg {
         background-position: top;
         min-height: calc(90vh - 440px);
     }
+body {
+    transform:rotate(0deg) skew(20deg,-10deg);
+    transition-duration:2s;
+    transition-timing-function:ease; 
+}
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .container {
         position: relative;
         top: 0;
@@ -196,6 +178,12 @@ footer p {
     #kaygb-mail {
         display: none;
     }
+
+body {
+    transform:rotate(0deg) skew(6deg,-3deg);
+    transition-duration:2s;
+    transition-timing-function:ease; 
+}
 }
 
 #frame {
@@ -208,6 +196,9 @@ footer p {
     top: 5%;
     left: 5%;
 }
-
 #aplayer {
     z-index: 20000000;
+    color: #008ab9;
+    Background: rgba(135, 206, 235, 0.41);
+    box-shadow: -10px 10px 2px 0px rgba(90, 205, 255, 0.30);
+}
