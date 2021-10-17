@@ -38,7 +38,7 @@ h1 {
 @media (max-width: 1920px) {
 body {
     transform:rotate(0deg) skew(40deg,-20deg);
-    transition-duration:2s;
+    transition-duration:5s;
     transition-timing-function:ease; 
     }
 h1 {
@@ -153,7 +153,7 @@ footer p {
     }
 body {
     transform:rotate(0deg) skew(20deg,-10deg);
-    transition-duration:2s;
+    transition-duration:5s;
     transition-timing-function:ease; 
 }
 }
@@ -181,7 +181,7 @@ body {
 
 body {
     transform:rotate(0deg) skew(6deg,-3deg);
-    transition-duration:2s;
+    transition-duration:5s;
     transition-timing-function:ease; 
 }
 }
