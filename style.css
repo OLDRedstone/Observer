@@ -9,6 +9,21 @@ body {
     min-height: 200px;
 }
 body {}
+a:link {
+    color: rgb(0 136 189);
+}
+
+a:visited {
+    color: rgb(0 162 232);
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
 div{
     font-family:Minecraft;
 }
@@ -62,6 +77,26 @@ p {
     transition-timing-function:ease; 
     }*/
 
+    .content:hover {
+        background-color: rgb(0 0 0 / 0.00);
+        max-width:500ex;
+        overflow: hidden;
+        max-height: 1000px;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+    }
+    .act {
+        background-color:rgb(0 0 0 / 1);
+        max-width: 20ex;
+        overflow: hidden; /*超出长度的文字隐藏*/
+        text-overflow: ellipsis;
+        max-height: 15px;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+        overflow: hidden;
+    }
 .card {
 
     box-shadow: -10px 10px 2px 0px rgba(90, 205, 255, 0.30);
