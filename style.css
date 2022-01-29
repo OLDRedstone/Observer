@@ -1,6 +1,6 @@
 body {
     color: #0088bd;
-    background-color: #ebf1f5;
+    background-color: #99e5ff;
     background-image: url(photos/background.JPG);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body {
     height: 100vh;
     min-height: 200px;
 }
-
+body {}
 div{
     font-family:Minecraft;
 }
@@ -16,8 +16,25 @@ div{
     font-family: Minecraft;
     src: url(documents/minecraft.ttf)
 }
-h1 {
+content{
+
+}
+h {
     color: #0080b1
+    }
+h1 {
+    font-size: 24px;
+    }
+h2,
+.social .fa {
+        font-size: 20px;
+    }
+h3 {
+        font-size: 16px;
+    }
+h4,
+p {
+        font-size: 4px;
     }
 
 ::-webkit-scrollbar {
@@ -39,38 +56,25 @@ h1 {
 }
 
 @media (max-width: 1920px) {
-body {
+/*body {
     transform:rotate(0deg) skew(40deg,-20deg);
     transition-duration:5s;
     transition-timing-function:ease; 
-    }
-h1 {
-    font-size: 24px;
-    }
-h2,
-.social .fa {
-        font-size: 20px;
-    }
-h3 {
-        font-size: 16px;
-    }
-h4,
-p {
-        font-size: 4px;
-    }
-h1,
-h2,
-h3,
-h4 {
-    color: black;
-}
+    }*/
+
 .card {
+
     box-shadow: -10px 10px 2px 0px rgba(90, 205, 255, 0.30);
     border: none;
     padding: 80px 80px 0px;
     border-radius: 0;
     background-color: rgba(0, 186, 255, 0.50);
 }
+  .card img {
+        width: 32px;
+        display: block;
+        float: left;
+    }
 .container {
     position: relative;
     top: 50%;
@@ -133,7 +137,7 @@ strike {
 }
 .photo-bg {
     box-shadow: -10px 10px 2px 0px rgba(0, 104, 150, 0.59);
-    background-image: url(photos/OR.JPG);
+    background-image: url(icons/OR.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,11 +158,11 @@ footer p {
         background-position: top;
         min-height: calc(90vh - 440px);
     }
-body {
+/*body {
     transform:rotate(0deg) skew(20deg,-10deg);
     transition-duration:5s;
     transition-timing-function:ease; 
-}
+}*/
 }
 
 @media (max-width: 767px) {
@@ -182,11 +186,11 @@ body {
         display: none;
     }
 
-body {
+/*body {
     transform:rotate(0deg) skew(6deg,-3deg);
     transition-duration:5s;
     transition-timing-function:ease; 
-}
+}*/
 }
 
 #frame {
